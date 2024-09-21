@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/login_back"
+    tools:context=".ReminderActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Your Reminder"
+                android:layout_marginTop="20dp"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                android:textColor="@color/colorPrimaryDark"  />
+
+            <EditText
+                android:id="@+id/et_reminder_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:background="@drawable/round_corner"
+                android:layout_marginTop="20dp"
+                android:hint="Enter time (in minutes)"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/et_reminder_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:background="@drawable/round_corner"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Enter reminder message" />
+
+            <Button
+                android:id="@+id/btn_set_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Reminder"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:id="@+id/btn_cancel_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel Reminder"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/tv_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

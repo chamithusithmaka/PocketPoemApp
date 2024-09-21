@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="18dp"
+    android:background="@drawable/login_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".poemchallange">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:text="Poem Challange" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Timer"
+            android:textColor="@color/colorPrimary"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00.00"
+            android:gravity="center"
+            android:textSize="100sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/startButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:textSize="30sp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="Start"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/stopButton"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:layout_marginStart="3dp"
+                android:text="stop"/>
+            <Button
+                android:id="@+id/resetbtn"
+                android:layout_width="0dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:textSize="27sp"
+                android:text="Reset"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:text="Name"/>
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/round_corner"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Date"/>
+
+        <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_corner"
+            android:textSize="20dp"
+            android:padding="10sp"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Topic"/>
+
+        <EditText
+            android:id="@+id/topicEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/round_corner"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poem"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+
+            />
+
+        <EditText
+            android:id="@+id/poemEditText"
+            android:layout_width="match_parent"
+            android:background="@drawable/round_corner"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+
+            />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+
+            android:text="Submit My Poem"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="Back"
+            />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
