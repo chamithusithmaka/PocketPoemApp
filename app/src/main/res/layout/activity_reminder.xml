@@ -54,6 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Set Reminder"
+                android:backgroundTint="@color/colorPrimaryDark"
                 android:layout_marginTop="20dp" />
 
             <Button
@@ -61,13 +62,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Cancel Reminder"
+                android:backgroundTint="@color/colorPrimaryDark"
                 android:layout_marginTop="10dp" />
 
             <Button
                 android:id="@+id/back_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Back"
+                android:text="@string/Back"
+                android:backgroundTint="@color/colorPrimaryDark"
                 android:layout_marginTop="10dp" />
 
             <TextView

@@ -25,7 +25,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Write Your Poem"
+            android:text="@string/write_poem"
             android:gravity="center"
             android:textSize="40dp"
 
@@ -106,7 +106,7 @@
             android:backgroundTint="@color/colorPrimary"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="Submit My Poem"
+            android:text="@string/submit_my_poem"
             android:layout_marginTop="20dp"
             />
         <Button
@@ -116,7 +116,7 @@
             android:textSize="20sp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/colorPrimary"
-            android:text="Back"
+            android:text="@string/Back"
             />
         <TextView
 
@@ -125,7 +125,7 @@
             android:gravity="center"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="Set Challange Topic"/>
+            android:text="@string/set_challange_topic"/>
 
         <EditText
             android:id="@+id/challangeTopic"
@@ -142,7 +142,7 @@
             android:textSize="20sp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/colorPrimary"
-            android:text="Set Challange"
+            android:text="@string/set_challange"
             />
 
     </LinearLayout>

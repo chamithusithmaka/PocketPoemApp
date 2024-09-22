@@ -1,3 +1,21 @@
 <resources>
+
     <string name="app_name">act3</string>
+    <string name="write_poem">Write a poem</string>
+    <string name="my_poems">My Poems</string>
+    <string name="poem_challange">Poem Challange</string>
+    <string name="reminder">Reminder</string>
+
+    <string name="Back">Back</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="topic">Topic</string>
+    <string name="poem">Poem</string>
+    <string name="update_poem">Update Poem</string>
+
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="submit_my_poem">Submit My Poem</string>
+    <string name="set_challange_topic">Set Challange Topic</string>
+    <string name="set_challange">Set Challange</string>
 </resources>

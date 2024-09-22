@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:textSize="30sp"
-            android:text="Name"/>
+            android:text="@string/name"/>
         <EditText
             android:id="@+id/nameEditText"
             android:layout_width="match_parent"
@@ -51,7 +51,7 @@
             android:textSize="30sp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Date"/>
+            android:text="@string/date"/>
 
         <EditText
             android:id="@+id/dateEditText"
@@ -68,7 +68,7 @@
             android:textSize="30sp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Topic"/>
+            android:text="@string/topic"/>
 
         <EditText
             android:id="@+id/topicEditText"
@@ -81,7 +81,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Poem"
+            android:text="@string/poem"
             android:textSize="30dp"
             android:layout_marginTop="10dp"
             android:textAlignment="center"
@@ -104,7 +104,7 @@
             android:backgroundTint="@color/colorPrimary"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:text="Update Poem"
+            android:text="@string/update_poem"
             android:layout_marginTop="20dp"
             />
         <Button

@@ -29,7 +29,7 @@
             android:padding="20dp"
             android:textSize="20sp"
             android:backgroundTint="@color/colorPrimaryDark"
-            android:text="Write a poem"
+            android:text="@string/write_poem"
 
             />
 
@@ -40,7 +40,7 @@
             android:backgroundTint="@color/colorPrimaryDark"
             android:padding="20dp"
             android:textSize="20sp"
-            android:text="My Poems"
+            android:text="@string/my_poems"
 
             />
 
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:backgroundTint="@color/colorPrimaryDark"
-            android:text="Poem Challange"
+            android:text="@string/poem_challange"
             android:padding="20dp"
 
             />
@@ -64,7 +64,7 @@
             android:textSize="20sp"
             android:backgroundTint="@color/colorPrimaryDark"
             android:padding="20dp"
-            android:text="Reminder"
+            android:text="@string/reminder"
 
             />
 

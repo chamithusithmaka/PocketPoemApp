@@ -62,8 +62,9 @@
         <Button
             android:id="@+id/updateButton"
             android:layout_width="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:layout_height="wrap_content"
-            android:text="Update"
+            android:text="@string/update"
             android:textSize="16sp"
             android:fontFamily="sans-serif-medium"/>
 
@@ -71,8 +72,9 @@
             android:id="@+id/deleteButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Delete"
+            android:text="@string/delete"
             android:textSize="16sp"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:layout_marginStart="16dp"
             android:fontFamily="sans-serif-medium"/>
     </LinearLayout>
